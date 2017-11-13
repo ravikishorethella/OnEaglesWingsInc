@@ -1,0 +1,54 @@
+/* margin for li elements in the navbar */
+.title-page ul li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*margin for the whole div section of the li elements*/
+.title-page{
+    margin-left: 100px;
+}
+/*nav-part1 styling*/
+.nav-part1 ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.nav-part1{
+    background-color: #1eb9c2;
+}
+.nav-part1-col{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 40px;
+}
+
+.fa{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.nav-part1-col ul{
+    padding: 4px;
+    margin-bottom: 0 !important;
+    color: #e5e5e5;
+}
+
+.nav-part1-col ul li a{
+    outline: none;
+    color: inherit;
+    /*color: white !important;*/
+}
+
+.nav-part1-col ul li:hover{
+    color: white ;
+}
+
+/*nav-part2 styling*/
+
+.nav-part2-col{
+    padding-left: 90px;
+}
+
+
+
+
+
