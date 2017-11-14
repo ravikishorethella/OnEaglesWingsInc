@@ -29,15 +29,20 @@
                     <div class="title-page">
                         <ul class="navbar-nav">
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" [routerLink]="['/about-us']" data-toggle="dropdown" href="#" role="button"
+                                <a class="nav-link dropdown-toggle" [routerLink]="['/about-us']" data-toggle="dropdown" role="button"
                                    aria-haspopup="true" aria-expanded="false">About Us</a>
                                 <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">History</a>
-                                    <a class="dropdown-item" href="#">Board of Directors</a>
+                                    <a class="dropdown-item" [routerLink]="['/about-us', 'history']">History</a>
+                                    <a class="dropdown-item" [routerLink]="['/about-us', 'board-of-directors']">Board of Directors</a>
                                 </div>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Our Stories</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" [routerLink]="['/our-stories']" data-toggle="dropdown" role="button"
+                                   aria-haspopup="true" aria-expanded="false">Our Stories</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" >Image Gallery</a>
+                                    <a class="dropdown-item" >Event Videos</a>
+                                </div>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Special Events & News</a>

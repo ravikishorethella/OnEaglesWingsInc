@@ -9,6 +9,9 @@ import {FooterComponent} from "./footer/footer.component";
 import {HistoryComponent} from "./about-us/history/history.component";
 import {BoardOfDirectorsComponent} from "./about-us/board-of-directors/board-of-directors.component";
 import {FormsModule} from "@angular/forms";
+import {AboutUs2Component} from "./about-us/about-us-2/about-us-2.component";
+import {OurStoriesComponent} from "./our-stories/our-stories.component";
+import {AboutUsSidebarComponent} from "./about-us/about-us-sidebar/about-us-sidebar.component";
 
 @NgModule({
     declarations: [ AppComponent,
@@ -16,7 +19,10 @@ import {FormsModule} from "@angular/forms";
                     AboutUsComponent,
                     FooterComponent,
                     HistoryComponent,
-                    BoardOfDirectorsComponent
+                    BoardOfDirectorsComponent,
+                    AboutUs2Component,
+                    OurStoriesComponent,
+                    AboutUsSidebarComponent
     ],
     imports: [BrowserModule, FormsModule, routing],
     bootstrap: [AppComponent]
