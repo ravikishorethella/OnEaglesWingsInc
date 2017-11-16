@@ -16,7 +16,7 @@ import {EventVidoesComponent} from "./our-stories/event-videos/event-vidoes.comp
 import {ImageGalleryComponent} from "./our-stories/image-gallery/image-gallery.component";
 import {OurStories2Component} from "./our-stories/our-stories-2/our-stories-2.component";
 import {OurStoriesSidebarComponent} from "./our-stories/our-stories-sidebar/our-stories-sidebar.component";
-import {SpecialEventsAndNewsComponent} from "./special-events-and-news/special-events-&-news.component";
+import {SpecialEventsAndNewsComponent} from "./special-events-and-news/special-events-and-news.component";
 import {ContactUsComponent} from "./contact-us/contact-us.component";
 import {DonateComponent} from "./donate/donate.component";
 

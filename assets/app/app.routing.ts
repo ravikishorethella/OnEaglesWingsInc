@@ -3,7 +3,7 @@ import {RouterModule, Routes} from "@angular/router";
 import {ABOUT_US_ROUTES} from "./about-us/about-us.routing";
 import {OurStoriesComponent} from "./our-stories/our-stories.component";
 import {OUR_STORIES_ROUTES} from "./our-stories/our-stories.routing";
-import {SpecialEventsAndNewsComponent} from "./special-events-and-news/special-events-&-news.component";
+import {SpecialEventsAndNewsComponent} from "./special-events-and-news/special-events-and-news.component";
 import {ContactUsComponent} from "./contact-us/contact-us.component";
 import {DonateComponent} from "./donate/donate.component";
 
