@@ -6,21 +6,26 @@
     </div>
 
     <div class="container" style="text-align: center">
-        <form action="https://formspree.io/love.modi3003@gmail.com" method="POST">
+        <form (ngSubmit)="onSubmit(f)" #f="ngForm">
             <div class="login">
-                <input type="text" placeholder="Your Name" class="input" name="name">
-                <input type="text" placeholder="Your Email Address" class="input" name="_replyto">
+                <input type="text" placeholder="Your Name" class="input" ngModel name="name" required>
+                <input type="text" placeholder="Your Email Address"
+                       class="input" name="_replyto" ngModel name="email" required email>
             </div>
 
             <div class="subject">
-                <input type="text" placeholder="Subject" class="input">
+                <input type="text" placeholder="Subject" class="input" ngModel name="subject" required>
             </div>
 
             <div class="msg">
-                <textarea  class="area" placeholder="Leave a Message"></textarea>
+                <textarea  class="area" placeholder="Leave a Message" ngModel name="message" required></textarea>
+            </div>
+            <div style="outline: none;">
+                <button class="btn" type="submit"
+                        style="text-decoration: none;outline: none"
+                        [disabled]="!f.valid">Send Message</button>
             </div>
 
-            <div class="btn" type="submit" value="Send">Send Message</div>
         </form>
     </div>
 

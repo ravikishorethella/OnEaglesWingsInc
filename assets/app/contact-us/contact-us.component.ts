@@ -1,5 +1,6 @@
 
-import {Component} from "@angular/core";
+import {Component, ViewChild} from "@angular/core";
+import {NgForm} from "@angular/forms";
 
 @Component({
     selector: 'app-contact-us',
@@ -8,5 +9,9 @@ import {Component} from "@angular/core";
     styleUrls: ['./contact-us.component.css']
 })
 export class ContactUsComponent{
+    @ViewChild('f') contactUsForm: NgForm;
+    onSubmit(){
+        console.log(this.contactUsForm);
+    }
 
 }
