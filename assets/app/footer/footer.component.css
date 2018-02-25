@@ -189,6 +189,7 @@ footer a:hover {
 .footer-bottom {
     background: #3d6277;
     padding: 2em;
+    align-content: center !important;
 }
 .footer-top {
     background: #2d4958;
