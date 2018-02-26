@@ -19,6 +19,9 @@ import {OurStoriesSidebarComponent} from "./our-stories/our-stories-sidebar/our-
 import {SpecialEventsAndNewsComponent} from "./special-events-and-news/special-events-and-news.component";
 import {ContactUsComponent} from "./contact-us/contact-us.component";
 import {DonateComponent} from "./donate/donate.component";
+import {ContactUsService} from "./contact-us/contact-us.service";
+import {HttpClientModule} from "@angular/common/http";
+import {AlertsModule} from "angular-alert-module";
 
 @NgModule({
     declarations: [ AppComponent,
@@ -38,8 +41,9 @@ import {DonateComponent} from "./donate/donate.component";
                     ContactUsComponent,
                     DonateComponent
     ],
-    imports: [BrowserModule, FormsModule, routing],
-    bootstrap: [AppComponent]
+    imports: [BrowserModule, FormsModule, routing, HttpClientModule, AlertsModule.forRoot()],
+    bootstrap: [AppComponent],
+    providers:[ContactUsService]
 })
 export class AppModule {
 

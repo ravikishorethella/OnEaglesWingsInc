@@ -185,4 +185,10 @@ input.ng-invalid.ng-touched, textarea.ng-invalid.ng-touched{
     border: 1px solid red;
 }
 
+/* Specific css for <Alert Type> */
+.alertsContainer .alertsRow.success  {
+    border: 1px solid #ffc549;
+}
+
+
 

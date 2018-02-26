@@ -4,7 +4,7 @@
             <h1 id="header-content">Contact Us</h1>
         </div>
     </div>
-
+    <app-alerts></app-alerts>
     <div class="container" style="text-align: center">
         <form (ngSubmit)="onSubmit(f)" #f="ngForm">
             <div class="login">
@@ -24,6 +24,7 @@
                 <button class="btn" type="submit"
                         style="text-decoration: none;outline: none"
                         [disabled]="!f.valid">Send Message</button>
+
             </div>
 
         </form>
