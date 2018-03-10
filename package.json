@@ -21,6 +21,7 @@
     "@angular/router": "^5.0.0",
     "@angular/upgrade": "^5.0.0",
     "angular-alert-module": "^1.0.0",
+    "angular-alerts": "^1.0.0",
     "body-parser": "~1.15.2",
     "bootstrap": "^4.0.0-beta.2",
     "bootstrap-beta": "^4.0.0-beta",
